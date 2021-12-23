@@ -1,8 +1,9 @@
-export function Header (props) {
-
+export function Header(props) {
   return (
     <header>
-      <span className="category">Categoria:<span> {props.selectedGenre.title}</span></span>
+      <span className="category">
+        Categoria:<span> {props.selectedGenre.title}</span>
+      </span>
     </header>
-  )
+  );
 }
